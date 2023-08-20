@@ -10,7 +10,7 @@ function handleFiles() {
 
     // Agregar la imagen al lugar correcto
     const imageFile = files[0]; // Supongamos que solo se carga una imagen
-    zip.folder('assets/minecraft/textures/item').file('Imagen', imageFile);
+    zip.folder('assets/minecraft/textures/item').file('totem_of_undying.png', imageFile);
 
     // Agregar el archivo JSON al lugar correcto
     const jsonContent = `{
