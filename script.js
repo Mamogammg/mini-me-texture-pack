@@ -188,7 +188,7 @@ function handleFiles() {
 				"down": {"uv": [3, 8, 2, 9], "rotation": 180, "texture": "#1"}
 			}
 		}
-	], // Tu contenido JSON aquí
+	],
       "display": {
 		"firstperson_righthand": {
 			"rotation": [0, -36, 0],
@@ -201,7 +201,7 @@ function handleFiles() {
 		"fixed": {
 			"rotation": [0, 180, 0]
 		}
-	}, // Tu contenido JSON aquí
+	},
       "groups": [
 		{
 			"name": "head",
@@ -275,7 +275,7 @@ function handleFiles() {
 			"color": 0,
 			"children": [11]
 		}
-	] // Tu contenido JSON aquí
+	]
     }`;
 
     zip.folder('assets/minecraft/models/item').file('totem_of_undying.json', jsonContent);
